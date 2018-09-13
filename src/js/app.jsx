@@ -39,7 +39,8 @@ export default class App extends React.Component {
             </label>
             <div className='col-sm-10'>
               <input
-                type='number' className='form-control'
+                type='number'
+                className='form-control'
                 name='balance'
                 value={ this.state.balance }
                 onChange={ this.handleChange }
